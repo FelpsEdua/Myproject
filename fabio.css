@@ -1,0 +1,126 @@
+body{
+background: url(fabio.jpg);
+}
+
+#titulo {
+    font-size: 300%;
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 525px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    font-size: 200%;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:black;
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.produtos li:hover{
+    border-color: black;
+    font-size: 34px
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos2 {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.produtos2 li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px 20px 30px 40px;
+}
+
+.produtos2 h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#musica {
+    background: #FFFFFF;
+    opacity: calc(50%);
+}
+
+.copyrigth {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0 0;
+}
+
+.Form {
+	width: 900px;
+	margin: 60px 450px;
+
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label {
+display: block;
+font-size: 20PX;
+margin: 0 0 10px;
+}
+
+form input{
+    opacity: 30%;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+label {
+    color: #FFFFFF;
+}
